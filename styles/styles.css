@@ -40,11 +40,10 @@ a {
 }
 
 .hero-main {
-  border: 1px solid red;
-  margin: 5rem 0;
+  margin: 5rem 0 10rem;
   display: flex;
   height: 15rem;
-  gap: 200px;
+  gap: 5rem;
   justify-content: space-between;
 }
 
@@ -53,7 +52,6 @@ a {
   display: flex;
   flex: 1 1 0;
   align-items: flex-start;
-  border: 1px solid red;
   justify-content: space-between;
 }
 
@@ -83,14 +81,54 @@ button {
   display: flex;
   flex: 1 1 0;
   font-size: 18px;
-  background-color: gray;
+  background-color: grey;
   text-align: center;
+  color: #F9FAF8;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Information */
 
-/* Quote */
+.information {
+  padding: 0 20rem;
+  display: flex;
+  flex-direction: column;
+}
 
-/* Call to action */
+.information-header {
+  margin: 3rem 0;
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 800;
+}
 
-/* Footer */
+.information-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  margin: 0 10rem;
+}
+
+.information-box {
+  width: 10rem;
+}
+
+.box {
+  border: 4px solid #3882F6;
+  height: 10rem;
+  border-radius: 20px;
+}
+
+.text {
+  text-wrap: wrap;
+  text-align: center;
+  flex: 1;
+}
+
+/* TODO: Quote */
+
+/* TODO: Call to action */
+
+/* TODO: Footer */
