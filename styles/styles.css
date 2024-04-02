@@ -12,8 +12,7 @@ body {
 
 /* Hero */
 
-.hero,
-footer {
+.hero {
   background-color: #1F2937;
   padding: 0 20rem;
 }
@@ -64,7 +63,7 @@ a {
 
 .secondary-text,
 a {
-  font: 18px;
+  font-size: 18px;
   color: #E5E7EB;
   margin: 0;
 }
@@ -73,7 +72,8 @@ button {
   background-color: #3882F6;
   padding: 0.5rem 2rem;
   border-radius: 8px;
-  border: 0;
+  font-size: 18px;
+  border: none;
   color: #F9FAF8;
 }
 
@@ -125,9 +125,32 @@ button {
   text-wrap: wrap;
   text-align: center;
   flex: 1;
+  padding: 1rem 0 10rem;
 }
 
 /* TODO: Quote */
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.quote-container {
+  margin: 10rem 30rem 10rem;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+footer {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: right;
+  margin-right: 7.5rem;
+}
 
 /* TODO: Call to action */
 
