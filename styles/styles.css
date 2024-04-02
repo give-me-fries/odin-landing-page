@@ -197,3 +197,11 @@ footer {
 
 /* TODO: Footer */
 
+.footer {
+  background-color: #1F2937;
+  text-align: center;
+  padding: 2rem 0;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 300;
+}
